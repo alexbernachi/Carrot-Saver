@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ibl54q2wnt5f"]
+
+[ext_resource type="AudioStream" uid="uid://boseev2c8gid1" path="res://Asset/Placeholder/Music/Stream Loops 2024-02-28_01.ogg" id="1_ab71d"]
+
+[node name="Music_Handler" type="Node"]
+
+[node name="Track_1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_ab71d")
+volume_db = -15.0
+autoplay = true
